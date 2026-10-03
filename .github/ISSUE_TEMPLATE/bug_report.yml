@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a reproducible problem with a Plex Studios project
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: input
+    id: project-version
+    attributes:
+      label: Plugin / project version
+      placeholder: "Example: 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft version
+      placeholder: "Example: 1.21.11"
+
+  - type: input
+    id: server-version
+    attributes:
+      label: Server software and version
+      placeholder: "Example: Paper build/version"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Start the server
+        2. Run or trigger ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Paste only the relevant console output or stack trace.
+      render: text
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Include relevant plugins, configuration details, or screenshots.
