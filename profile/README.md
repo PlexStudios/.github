@@ -4,16 +4,21 @@
 
 Plex Studios is the home of the Plex plugin ecosystem by Applex.
 
+## Featured Project
+
+### [PlexVariables](https://github.com/PlexStudios/PlexVariables)
+
+A configurable PlaceholderAPI variable engine for Paper servers with static values, conditional logic, safe expressions, nested variables, and persistent player or global storage.
+
 ## Projects
 
-### PlexKillstreaks
-A lightweight, configurable killstreak system for modern Paper servers with SQLite persistence and optional PlaceholderAPI support.
+### [PlexKillstreaks](https://github.com/PlexStudios/PlexKillstreaks)
 
-### PlexVariables
-A custom PlaceholderAPI variable engine designed around static values, conditions, expressions, nested variables, and persistent storage.
+Lightweight, configurable killstreak tracking with SQLite persistence and optional PlaceholderAPI support.
 
 ### PlexAware
-A lightweight survival QoL assistant focused on subtle contextual awareness, inventory protection, and low-profile player feedback.
+
+A lightweight survival QoL assistant focused on subtle contextual awareness, inventory protection, and low-profile player feedback. Development repository will be published when it is ready for public release.
 
 ## Development Principles
 
@@ -23,13 +28,15 @@ A lightweight survival QoL assistant focused on subtle contextual awareness, inv
 - Clean player-facing UX
 - Minimal unnecessary dependencies
 - Reliable persistence where needed
-- Modern Paper support
+- Accurate compatibility claims
 
-## Open Source and Paid Projects
+## Source Models
 
-Free and open-source projects may publish their complete source code here.
+Plex Studios projects may use different source models depending on the product.
 
-Paid projects can keep their implementation private while still using public documentation, issue tracking, changelogs, and support resources.
+Some projects may be open source. Others may publish source for transparency and contribution under source-available terms. Paid products may keep implementation private while publishing public documentation and support resources.
+
+Always check the license in the individual project repository.
 
 ## Documentation
 
